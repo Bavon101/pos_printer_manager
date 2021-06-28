@@ -2,6 +2,10 @@ pos_printer_manager
 2.12
 file:///C:/Users/Lazarus/Documents/FlutterProjects/pos_printer_manager/
 file:///C:/Users/Lazarus/Documents/FlutterProjects/pos_printer_manager/lib/
+flutter_blue
+2.12
+file:///C:/src/flutter/.pub-cache/git/flutter_blue-28072d06c4569b346f2edc146b780d1c17330b27/
+file:///C:/src/flutter/.pub-cache/git/flutter_blue-28072d06c4569b346f2edc146b780d1c17330b27/lib/
 flutter_usb_printer
 2.12
 file:///C:/src/flutter/.pub-cache/git/flutter_usb_printer-a39b77c5ca2ccb705f7685237ed75ba1fdf8a83b/
@@ -82,10 +86,6 @@ fixnum
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-1.0.0/
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-1.0.0/lib/
-flutter_blue
-2.12
-file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blue-0.8.0/
-file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blue-0.8.0/lib/
 hex
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/hex-0.2.0/
@@ -180,8 +180,8 @@ file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/qr-2.1.0/
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/qr-2.1.0/lib/
 rxdart
 2.12
-file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.26.0/
-file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.26.0/lib/
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.27.1/
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.27.1/lib/
 source_span
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1/

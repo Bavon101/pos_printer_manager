@@ -123,7 +123,7 @@
     },
     {
       "name": "flutter_blue",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blue-0.8.0",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/git/flutter_blue-28072d06c4569b346f2edc146b780d1c17330b27/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -285,7 +285,7 @@
     },
     {
       "name": "rxdart",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.26.0",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.27.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -362,7 +362,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-06-27T21:47:37.387152Z",
+  "generated": "2021-06-28T20:47:00.539692Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }
