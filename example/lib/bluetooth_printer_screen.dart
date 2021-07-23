@@ -19,13 +19,16 @@ class _BluetoothPrinterScreenState extends State<BluetoothPrinterScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Bluetooth Printer Screen"),
+        bottom: PreferredSize(
+            child: _isLoading ? LinearProgressIndicator() : SizedBox(),
+            preferredSize: Size.fromHeight(3)),
       ),
       body: ListView(
         children: [
           ..._printers
               .map((printer) => ListTile(
                     title: Text("${printer.name}"),
-                    subtitle: Text("${printer.address}"),
+                    subtitle: Text("${printer.connected}"),
                     leading: Icon(Icons.bluetooth),
                     onTap: () => _connect(printer),
                     onLongPress: () {
@@ -58,15 +61,20 @@ class _BluetoothPrinterScreenState extends State<BluetoothPrinterScreen> {
   }
 
   _connect(BluetoothPrinter printer) async {
+    print(" -==== start to connect to ===== ${printer.name}- ");
     var paperSize = PaperSize.mm80;
     var profile = await CapabilityProfile.load();
+    print(profile.codePages[0].name);
     var manager = BluetoothPrinterManager(printer, paperSize, profile);
-    await manager.connect();
-    print(" -==== connected =====- ");
-    setState(() {
-      _manager = manager;
-      printer.connected = true;
-    });
+    final response = await manager.connect();
+    if (response.value == 1) {
+      print(" -==== connected =====- ");
+      setState(() {
+        _manager = manager;
+        printer.connected = true;
+      });
+    }
+    print("******Response *******${response.msg}");
   }
 
   _startPrinter() async {

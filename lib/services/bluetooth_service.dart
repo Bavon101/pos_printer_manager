@@ -11,6 +11,7 @@ class BluetoothService {
           thermal.BlueThermalPrinter.instance;
 
       var results = await bluetooth.getBondedDevices();
+
       devices = results
           .map(
             (d) => BluetoothPrinter(
@@ -47,4 +48,10 @@ class BluetoothService {
     }
     return devices;
   }
+}
+
+enum BleState {
+  connected,
+  disconnected,
+  error,
 }

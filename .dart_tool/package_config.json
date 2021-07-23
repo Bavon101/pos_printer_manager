@@ -9,7 +9,7 @@
     },
     {
       "name": "args",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/args-2.1.1",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/args-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -81,7 +81,7 @@
     },
     {
       "name": "dbus",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/dbus-0.5.2",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/dbus-0.5.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -261,13 +261,13 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.0",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "printing",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.4.2",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/printing-5.4.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -345,7 +345,7 @@
     },
     {
       "name": "win32",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.4",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.13"
     },
@@ -362,7 +362,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-03T15:19:25.872675Z",
+  "generated": "2021-07-23T23:25:20.202729Z",
   "generator": "pub",
-  "generatorVersion": "2.13.3"
+  "generatorVersion": "2.13.4"
 }

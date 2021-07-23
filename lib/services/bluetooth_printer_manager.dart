@@ -12,10 +12,10 @@ import 'printer_manager.dart';
 
 /// Bluetooth Printer
 class BluetoothPrinterManager extends PrinterManager {
-   Generator? generator;
- late themal.BlueThermalPrinter bluetooth = themal.BlueThermalPrinter.instance;
- late fblue.FlutterBlue flutterBlue = fblue.FlutterBlue.instance;
- late fblue.BluetoothDevice? fbdevice;
+  Generator? generator;
+  late themal.BlueThermalPrinter bluetooth = themal.BlueThermalPrinter.instance;
+  late fblue.FlutterBlue flutterBlue = fblue.FlutterBlue.instance;
+  late fblue.BluetoothDevice? fbdevice;
 
   BluetoothPrinterManager(
     POSPrinter? printer,
