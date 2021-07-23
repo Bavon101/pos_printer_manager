@@ -92,4 +92,10 @@ class NetworkPrinterManager extends PrinterManager {
     // TODO: implement isBleConnected
     throw UnimplementedError();
   }
+
+  @override
+  Stream<int?> state() {
+    // TODO: implement state
+    throw UnimplementedError();
+  }
 }

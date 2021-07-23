@@ -120,4 +120,9 @@ class BluetoothPrinterManager extends PrinterManager {
   Future<bool?> isBleConnected() {
     return bluetooth.isConnected;
   }
+
+  @override
+  Stream<int?> state() {
+    return bluetooth.onStateChanged();
+  }
 }

@@ -23,6 +23,8 @@ abstract class PrinterManager {
 
   Future<bool?> isBleConnected();
 
+  Stream<int?> state();
+
   // ************************ Printer Commands ************************
   // void reset() {
   //   socket.add(generator.reset());

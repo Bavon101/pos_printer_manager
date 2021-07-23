@@ -213,6 +213,12 @@ class USBPrinterManager extends PrinterManager {
     // TODO: implement isBleConnected
     throw UnimplementedError();
   }
+
+  @override
+  Stream<int?> state() {
+    // TODO: implement state
+    throw UnimplementedError();
+  }
 }
 
 /// extension for converting list<int> to Unit8 to work with win32
