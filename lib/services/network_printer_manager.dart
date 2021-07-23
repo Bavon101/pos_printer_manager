@@ -86,4 +86,10 @@ class NetworkPrinterManager extends PrinterManager {
     }
     return ConnectionResponse.success;
   }
+
+  @override
+  Future<bool> isBleConnected() {
+    // TODO: implement isBleConnected
+    throw UnimplementedError();
+  }
 }

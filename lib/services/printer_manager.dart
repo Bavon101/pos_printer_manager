@@ -21,6 +21,8 @@ abstract class PrinterManager {
 
   Future<ConnectionResponse> disconnect({Duration timeout});
 
+  Future<bool?> isBleConnected();
+
   // ************************ Printer Commands ************************
   // void reset() {
   //   socket.add(generator.reset());

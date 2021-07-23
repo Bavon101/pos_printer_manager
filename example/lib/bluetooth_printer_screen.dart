@@ -66,6 +66,10 @@ class _BluetoothPrinterScreenState extends State<BluetoothPrinterScreen> {
     var profile = await CapabilityProfile.load();
     print(profile.codePages[0].name);
     var manager = BluetoothPrinterManager(printer, paperSize, profile);
+    var isCon = await manager.isBleConnected();
+    if (isCon!) {
+      await manager.disconnect();
+    }
     final response = await manager.connect();
     if (response.value == 1) {
       print(" -==== connected =====- ");
@@ -81,7 +85,8 @@ class _BluetoothPrinterScreenState extends State<BluetoothPrinterScreen> {
     final content = Demo.getShortReceiptContent();
     var bytes = await WebcontentConverter.contentToImage(content: content);
     var service = ESCPrinterService(bytes);
-    var data = await service.getBytes(paperSize: PaperSize.mm58);
+    var data = await Demo
+        .getTicket(); //await service.getBytes(paperSize: PaperSize.mm58);
     if (_manager != null) {
       print("isConnected ${_manager!.isConnected}");
       _manager!.writeBytes(data, isDisconnect: false);

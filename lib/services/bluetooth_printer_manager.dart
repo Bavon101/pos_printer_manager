@@ -115,4 +115,9 @@ class BluetoothPrinterManager extends PrinterManager {
     }
     return ConnectionResponse.success;
   }
+
+  @override
+  Future<bool?> isBleConnected() {
+    return bluetooth.isConnected;
+  }
 }

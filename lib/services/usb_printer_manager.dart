@@ -207,6 +207,12 @@ class USBPrinterManager extends PrinterManager {
       }
     }
   }
+
+  @override
+  Future<bool> isBleConnected() {
+    // TODO: implement isBleConnected
+    throw UnimplementedError();
+  }
 }
 
 /// extension for converting list<int> to Unit8 to work with win32
